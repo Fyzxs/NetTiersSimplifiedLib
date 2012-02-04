@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{EDCD57A8-A644-490A-A107-BD39144F6D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTiers", "NetTiers\NetTiers.csproj", "{0B551ECC-3C80-4E92-9937-EBE816DAB2F8}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Common.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCD57A8-A644-490A-A107-BD39144F6D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCD57A8-A644-490A-A107-BD39144F6D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCD57A8-A644-490A-A107-BD39144F6D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCD57A8-A644-490A-A107-BD39144F6D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B551ECC-3C80-4E92-9937-EBE816DAB2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B551ECC-3C80-4E92-9937-EBE816DAB2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B551ECC-3C80-4E92-9937-EBE816DAB2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B551ECC-3C80-4E92-9937-EBE816DAB2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
