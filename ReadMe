@@ -1,0 +1,11 @@
+This is an open source version of some little utility I wrote years ago to assist me in working with NetTiers (http://nettiers.com/) and a tiny bit of other stuff tossed in.
+
+This is licensed under the MIT License : http://www.opensource.org/licenses/mit-license.php
+
+The main purpose of this teeny library was to make CRUD through NetTiers REALLY simple. I originally found my self duplicating code to check for exceptions, and setting/passing some same values every time.
+
+It currently assumes that all tables have the fields, Uid, CreateDate, UpdateDate and DeleteDate. All the tables this was designed for did; So....
+
+There are some methods to run the nettiers validation and print out the results to a webpage. This was originally designed for web systems.
+
+This reduced my coding for modifying my databaes with NetTiers to 1 line. Often passing in nothing other than the object/record I wanted to Insert/Update.
